@@ -1,0 +1,82 @@
+﻿html {
+	height:100%;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 0px;
+	height: 100%;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Fixes text for footer */
+.footerText {
+	margin-top: 1rem;
+}
+
+.wrapper {
+	min-height: 100%;
+	margin: 0 auto -50px; /* the bottom margin is the negative value of the footer's height */
+}
+
+footer {
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #efefef;
+	text-align: center;
+	height: 50px;
+}
+.push {
+	height: 50px; /* '.push' must be the same height as 'footer' */
+}
+
+/* For multi view carousel */
+.carousel-inner .active.left {
+	left: -33%;
+}
+
+.carousel-inner .active.right {
+	left: 33%;
+}
+
+.carousel-inner .next {
+	left: 33%
+}
+
+.carousel-inner .prev {
+	left: -33%
+}
+
+.carousel-control.left {
+	background-image: none;
+}
+
+.carousel-control.right {
+	background-image: none;
+}
+
+.carousel-inner .item {
+	background: white;
+}
+
+
